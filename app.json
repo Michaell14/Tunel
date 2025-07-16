@@ -6,18 +6,20 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "tunel",
-    "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.tunel"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.yourcompany.tunel"
     },
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
     "web": {
       "bundler": "metro",
       "output": "static",
